@@ -8,7 +8,7 @@ RUN apk update && apk add --no-cache nginx && rm -rf /var/cache/apk/*
 WORKDIR /app
 
 # 暴露 Nginx 的端口（Hugging Face Spaces app_port）
-EXPOSE 2054
+EXPOSE 80
 EXPOSE 2053
 
 # 设置环境变量，确保 3X-UI 使用内部端口
