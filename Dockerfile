@@ -48,7 +48,7 @@ COPY entrypoint.sh /app/DockerEntrypoint.sh
 RUN chmod +x /app/DockerEntrypoint.sh
 
 # 挂载卷以持久化数据
-VOLUME ["/data/x-ui/", "/root/cert/", "/data/log/", "/data/tmp/", "/var/lib/nginx/"]
+# VOLUME ["/data/x-ui/", "/root/cert/", "/data/log/", "/data/tmp/", "/var/lib/nginx/"]
 
 RUN mkdir -p /data/tmp/ && chmod 777 -R /data/tmp/
 
