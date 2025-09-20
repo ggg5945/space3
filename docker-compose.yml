@@ -6,4 +6,4 @@ services:
     privileged: true
     ports:
       - "2053:2053/tcp"
-      - "2054:2054/tcp"
+      - "8000:8000/tcp"
