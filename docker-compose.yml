@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ocserv:
+    image: g-image-1
+    container_name: g1
+    privileged: true
+    ports:
+      - "2053:2053/tcp"
+      - "2054:2054/tcp"
