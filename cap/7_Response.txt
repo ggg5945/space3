@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK with automatic headers
+Date: Mon, 22 Sep 2025 07:54:56 GMT
+Content-Length: 291
+Cache-Control: max-age=0, must-revalidate
+Content-Type: text/html
+Set-Cookie: a="a1"
+Set-Cookie: b="a2"
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎访问</title>
+</head>
+<body>
+    <h1>欢迎访问我的主页!</h1>
+    <p>这是一个静态页面示例。</p>
+</body>
+</html>
