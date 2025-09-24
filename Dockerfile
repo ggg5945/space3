@@ -1,7 +1,8 @@
 # 使用官方的 3X-UI v2.8.1 镜像作为基础镜像
 # FROM ghcr.io/mhsanaei/3x-ui:v2.8.1@sha256:b4d2f43a9df30db91b3486e618f93c92639bf2065302d0cc4bcd9808802fb32a
 # 更新
-FROM ghcr.io/mhsanaei/3x-ui:v2.8.2
+# FROM ghcr.io/mhsanaei/3x-ui:v2.8.2
+FROM ghcr.io/mhsanaei/3x-ui:v2.8.4
 
 # 安装 Nginx（使用 apk，适配 Alpine Linux）
 RUN apk update && apk add --no-cache nginx && rm -rf /var/cache/apk/*
