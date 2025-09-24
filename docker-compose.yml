@@ -4,6 +4,7 @@ services:
     image: g-image-1
     container_name: g1
     privileged: true
+    restart: always
     ports:
       - "2053:2053/tcp"
       - "2054:2054/tcp"
