@@ -5,7 +5,9 @@
 # v1.2
 # FROM ghcr.io/mhsanaei/3x-ui:v2.8.4
 # v1.3
-FROM ghcr.io/mhsanaei/3x-ui:v2.6.7
+# FROM ghcr.io/mhsanaei/3x-ui:v2.6.7
+# v1.4
+FROM gggadocker/3x-ui:v2.8.3
 
 # 安装 Nginx（使用 apk，适配 Alpine Linux）
 RUN apk update && apk add --no-cache nginx && rm -rf /var/cache/apk/*
